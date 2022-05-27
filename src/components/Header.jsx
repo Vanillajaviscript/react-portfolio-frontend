@@ -5,7 +5,6 @@ const Header = () => {
   const header = {
     display: "flex",
     justifyContent: "space-around",
-    border: "3px solid black",
     padding: "8px",
     width: "90%",
     margin: "auto",

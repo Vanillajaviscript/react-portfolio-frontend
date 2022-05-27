@@ -1,6 +1,59 @@
-img {
-  width: 400px;
+body {
+  display: flex;
+  justify-content: center;
+  background-color: rgba(173, 216, 230, 0.681);
 }
+
+h4 {
+  text-align: center;
+}
+
+.project {
+  display: flex;
+  justify-content: baseline;
+  align-items: baseline;
+  margin: auto;
+}
+
+.header {
+  background-color: rgb(9, 61, 79);
+  border-radius: 10px;
+  font-family: arial;
+  color: #FFFFFF;
+  margin-top: 5px;
+  width:980px;
+  margin:0 auto;
+}
+
+img {
+  margin: 0 auto;
+  width: 400px;
+  border-radius: 10px;
+  box-shadow: 3px 4px 6px gray;
+}
+
+.home {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.portland-image {
+  display: block;
+  margin: 0 auto;
+}
+button {
+  margin: 8px 10px 10px 10px;
+  padding: 8px;
+  background-color: rgba(0, 0, 0, 0.68);
+  color: white;
+  border-radius: 5px;
+  transition: all 0.5s ease
+}
+button:hover {
+  transform: rotate(360deg);
+  transform: scale(1.01);
+}
+
 
 .footer {
   text-align: center;
